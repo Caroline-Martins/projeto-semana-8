@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class RegistroMateriaComponent {
 
+  onSubmit(){
+    console.log('onSubmit');
+  }
 }
